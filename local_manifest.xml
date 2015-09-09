@@ -9,14 +9,7 @@
   <remote name="googlecode"
           fetch="https://code.google.com/p/" />
 
-<!-- s2 -->
-<project name="CyanogenMod/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="cm-12.1" />
-<project name="CyanogenMod/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cm-12.1" />
-<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.1" />
-<!--<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />-->
-<!--<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.1" />-->
-<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
-<!-- S1 -->
+<!-- i9000 -->
   <project path="hardware/samsung/" name="lollipopi9000/android_hardware_samsung" remote="github" revision="lollipop-mr1" />
   <project path="device/samsung/aries-common/" name="lollipopi9000/android_device_samsung_aries-common" remote="github" revision="lollipop-mr1" />
   <project path="packages/apps/SamsungServiceMode" name="omnirom/android_packages_apps_SamsungServiceMode" remote="github" revision="android-5.1" />
