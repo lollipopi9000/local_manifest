@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="blobs2"
+           fetch="https://github.com/ThankYouMario" />
+
+  <remote name="kernel"
+          fetch="git://git.kernel.org/pub/scm/" />
+
+  <remote name="googlecode"
+          fetch="https://code.google.com/p/" />
+
+<!-- s2 -->
+<project name="CyanogenMod/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.1" />
+<!--<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />-->
+<!--<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.1" />-->
+<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
+<!-- S1 -->
+  <project path="hardware/samsung/" name="lollipopi9000/android_hardware_samsung" remote="github" revision="lollipop-mr1" />
+  <project path="device/samsung/aries-common/" name="lollipopi9000/android_device_samsung_aries-common" remote="github" revision="lollipop-mr1" />
+  <project path="packages/apps/SamsungServiceMode" name="omnirom/android_packages_apps_SamsungServiceMode" remote="github" revision="android-5.1" />
+  <project path="device/samsung/galaxysmtd" name="lollipopi9000/android_device_samsung_galaxysmtd" revision="lollipop-mr1" />
+<!-- Use prebuilt kernel for now
+ <project path="kernel/samsung/aries" name="lollipopi9000/android_kernel_samsung_aries" revision="lollipop-mr1" /> -->
+<remove-project name="AOSPA-L/android_bootable_recovery" />
+<remove-project name="AOSPA-L/android_system_extras" />
+ <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-5.1" />
+<project path="system/extras" name="omnirom/android_system_extras" revision="android-5.1" />
+<remove-project name="AOSPA-L/android_hardware_broadcom_wlan" />
+<project name="omnirom/android_hardware_broadcom_wlan" path="android/hardware/broadcom/wlan" revision="android-5.1" />
+<remove-project name="AOSPA-L/android_hardware_libhardware_legacy" />
+<project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="android-5.1" />
+
+</manifest>
