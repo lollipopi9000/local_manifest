@@ -14,14 +14,13 @@
   <project path="device/samsung/aries-common/" name="lollipopi9000/android_device_samsung_aries-common" remote="github" revision="lollipop-mr1" />
   <project path="packages/apps/SamsungServiceMode" name="omnirom/android_packages_apps_SamsungServiceMode" remote="github" revision="android-5.1" />
   <project path="device/samsung/galaxysmtd" name="lollipopi9000/android_device_samsung_galaxysmtd" revision="lollipop-mr1" />
+  <project path="kernel/samsung/aries" name="lollipopi9000/android_kernel_samsung_aries" revision="android-5.1" />
 <!-- Use prebuilt kernel for now
  <project path="kernel/samsung/aries" name="lollipopi9000/android_kernel_samsung_aries" revision="lollipop-mr1" /> -->
 <remove-project name="AOSPA-L/android_bootable_recovery" />
 <remove-project name="AOSPA-L/android_system_extras" />
  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-5.1" />
-<project path="system/extras" name="omnirom/android_system_extras" revision="android-5.1" />
-<remove-project name="AOSPA-L/android_hardware_broadcom_wlan" />
-<project name="omnirom/android_hardware_broadcom_wlan" path="android/hardware/broadcom/wlan" revision="android-5.1" />
+<project path="system/extras" name="omnirom/android_system_extras" revision="android-5.1" />>
 <remove-project name="AOSPA-L/android_hardware_libhardware_legacy" />
 <project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="android-5.1" />
 
