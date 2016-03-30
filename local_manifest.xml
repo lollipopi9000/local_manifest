@@ -1,27 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="blobs2"
-           fetch="https://github.com/ThankYouMario" />
-
-  <remote name="kernel"
-          fetch="git://git.kernel.org/pub/scm/" />
-
-  <remote name="googlecode"
-          fetch="https://code.google.com/p/" />
 
 <!-- i9000 -->
-  <project path="hardware/samsung/" name="lollipopi9000/android_hardware_samsung" remote="github" revision="lollipop-mr1" />
-  <project path="device/samsung/aries-common/" name="lollipopi9000/android_device_samsung_aries-common" remote="github" revision="lollipop-mr1" />
+  <project path="hardware/samsung/" name="lollipopi9000/android_hardware_samsung" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/aries-common/" name="lollipopi9000/android_device_samsung_aries-common" remote="github" revision="cm-13.0" />
   <project path="packages/apps/SamsungServiceMode" name="omnirom/android_packages_apps_SamsungServiceMode" remote="github" revision="android-5.1" />
-  <project path="device/samsung/galaxysmtd" name="lollipopi9000/android_device_samsung_galaxysmtd" revision="lollipop-mr1" />
-  <project path="kernel/samsung/aries" name="lollipopi9000/android_kernel_samsung_aries" revision="android-5.1" />
-<!-- Use prebuilt kernel for now
- <project path="kernel/samsung/aries" name="lollipopi9000/android_kernel_samsung_aries" revision="lollipop-mr1" /> -->
-<remove-project name="AOSPA-L/android_bootable_recovery" />
-<remove-project name="AOSPA-L/android_system_extras" />
- <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-5.1" />
-<project path="system/extras" name="omnirom/android_system_extras" revision="android-5.1" />>
-<remove-project name="AOSPA-L/android_hardware_libhardware_legacy" />
-<project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="android-5.1" />
+  <project path="device/samsung/galaxysmtd" name="lollipopi9000/android_device_samsung_galaxysmtd" revision="cm-13.0" />
+  <project path="kernel/samsung/aries" name="lollipopi9000/android_kernel_samsung_aries" revision="android-6.0_test" />
+  <project path="vendor/samsung" name="lollipopi9000/proprietary_vendor_samsung" revision="cm-13.0" />
+
+  <remove-project name="CyanogenMod/android_external_libselinux" />
+  <remove-project name="CyanogenMod/android_system_extras" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="android_external_android-clat" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_system_netd" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+
+  <project path="bootable/recovery" name="lollipopi9000/android_bootable_recovery" revision="cm-13.0" />
+  <project path="system/extras" name="lollipopi9000/android_system_extras" revision="cm-13.0" />
+  <project path="system/core" name="lollipopi9000/android_system_core" revision="cm-13.0" />
+  <project path="bionic" name="lollipopi9000/android_bionic" revision="cm-13.0" />
+  <project path="frameworks/opt/telephony" name="lollipopi9000/android_frameworks_opt_telephony" revision="cm-13.0" />
+  <project path="system/netd" name="lollipopi9000/android_system_netd" revision="cm-13.0" />
+  <project path="frameworks/native" name="lollipopi9000/android_frameworks_native" revision="cm-13.0" />
+  <project path="external/android-clat" name="lollipopi9000/android_external_android-clat" revision="cm-13.0" />
+  <project path="frameworks/base" name="lollipopi9000/android_frameworks_base" revision="cm-13.0" />
+  <project path="system/extras" name="lollipopi9000/android_system_extras" revision="cm-13.0" />
+  <project path="hardware/ril" name="lollipopi9000/android_hardware_ril" revision="cm-13.0" />
+  <project path="external/libselinux" name="lollipopi9000/android_external_libselinux" revision="cm-13.0" />
+  <project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="android-6.0" />
 
 </manifest>
