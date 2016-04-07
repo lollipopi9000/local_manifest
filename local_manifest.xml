@@ -21,9 +21,11 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_external_toybox" />
+  <remove-project name="CyanogenMod/android_system_bt" />
+
 
   <project path="bootable/recovery" name="lollipopi9000/android_bootable_recovery" revision="cm-13.0" />
-  <project path="system/extras" name="lollipopi9000/android_system_extras" revision="cm-13.0" />
   <project path="system/core" name="lollipopi9000/android_system_core" revision="cm-13.0" />
   <project path="bionic" name="lollipopi9000/android_bionic" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="lollipopi9000/android_frameworks_opt_telephony" revision="cm-13.0" />
@@ -33,7 +35,9 @@
   <project path="frameworks/base" name="lollipopi9000/android_frameworks_base" revision="cm-13.0" />
   <project path="system/extras" name="lollipopi9000/android_system_extras" revision="cm-13.0" />
   <project path="hardware/ril" name="lollipopi9000/android_hardware_ril" revision="cm-13.0" />
-  <project path="external/libselinux" name="lollipopi9000/android_external_libselinux" revision="cm-13.0" />
+  <project path="external/libselinux" name="lollipopi9000/android_external_libselinux" revision="cm-13.0" /> -->
   <project name="omnirom/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="android-6.0" />
-
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" revision="cm-13.0" />
+  <project name="lollipopi9000/android_external_toybox" path="external/toybox" revision="cm-13.0" />
+  <project name="lollipopi9000/android_system_bt" path="system/bt" revision="cm-13.0" />
 </manifest>
